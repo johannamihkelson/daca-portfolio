@@ -1,0 +1,8 @@
+SELECT 
+    COALESCE(store_location, 'Online') AS store_location, 
+    SUM(total_price) AS tulu,
+    COUNT(*) AS tehinguid
+FROM sales 
+WHERE sale_date <= '2025-02-28'
+GROUP BY store_location 
+ORDER BY tulu DESC;
