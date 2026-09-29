@@ -11,7 +11,6 @@
 
 ## Failid
 - `week-6/dashboard.pbix` -- minu Dashboard
-- `week1_results_screenshot.png` -- tulemuste pilt
 
 ## Meeskonna töö
 - https://docs.google.com/presentation/d/175G9j24R5GJ9Or9EvRadZt_BPE2NNsJ0jLlfqwcxoAQ/edit
