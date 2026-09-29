@@ -10,7 +10,7 @@
 - 2 müügikanalit: online ja pood
 
 ## Failid
-- `week1_[tabel]_exploration.sql` -- minu SQL päringud
+- `week-1/SQL` -- minu SQL päringud
 - `week1_results_screenshot.png` -- tulemuste pilt
 
 ## Meeskonna töö
