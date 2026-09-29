@@ -1,18 +1,16 @@
-Nädal 4
-# Nädal 1: SQL Basics -- UrbanStyle'i andmete uurimine
+# Nädal 4: SQL Agregatsioon
 
 ## Mida ma tegin
-- Uurisin [tabeli nimi] tabelit SQL päringutega
-- Leidsin [peamine leid]
-- Osalesin meeskonna andmemaastiku koostamisel
+- Kliendigruppide analüüsi.
+- Segmenteerisin kliendid kulutuse järgi (VIP / Regular / Uus), leidsin TOP kliendid ja koostasin kliendiprofiili.
+- Osalesin meeskonna andmemaastiku koostamisel.
 
 ## Peamised õpid
-- [Õppetund 1]
-- [Õppetund 2]
+- 15 VIP klienti <20 000EUR
+- VIP kliendid peamiselt Pärnus ja Tallinnas (5 mõlemas)
 
 ## Failid
-- `week1_[tabel]_exploration.sql` -- minu SQL päringud
-- `week1_results_screenshot.png` -- tulemuste pilt
+- `week-4/SQL` -- minu SQL päringud
 
 ## Meeskonna töö
-- [Link meeskonna Data Landscape slaidile]
+- https://docs.google.com/presentation/d/11OZd8eIa19jPC5OMbAuGoFpMlSK3P-uP-JZpjdlD2Fg/edit?slide=id.p1#slide=id.p1
