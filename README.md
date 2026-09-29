@@ -23,8 +23,8 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoliot.
 
 ## Kontakt
 
-GitHub: [GitHub.com/johannamihkelson] (https://github.com/johannamihkelson)
-Email: johanna.mihkelson@gmail.com
+- GitHub: [GitHub.com/johannamihkelson] (https://github.com/johannamihkelson)
+- Email: johanna.mihkelson@gmail.com
 
 
 
