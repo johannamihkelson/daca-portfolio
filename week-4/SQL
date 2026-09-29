@@ -1,0 +1,97 @@
+-- Kliendigruppide analüüs CTE-ga
+WITH kliendi_kokkuvote AS (
+    SELECT 
+        c.customer_id,
+        c.first_name || ' ' || c.last_name AS nimi,
+        c.city,
+        COUNT(o.sale_id) AS tellimuste_arv,
+        SUM(o.total_price) AS kogukäive
+    FROM customers c
+    JOIN sales o ON c.customer_id = o.customer_id
+    GROUP BY c.customer_id, c.first_name, c.last_name, c.city
+)
+SELECT 
+    nimi,
+    city,
+    tellimuste_arv,
+    kogukäive,
+    CASE 
+        WHEN kogukäive > 10000 THEN 'VIP'
+        WHEN kogukäive > 2000 THEN 'Regular'
+        ELSE 'Uus'
+    END AS segment
+FROM kliendi_kokkuvote
+ORDER BY kogukäive DESC;
+
+--TOP 10 klienti
+SELECT 
+    c.customer_id,
+    c.first_name || ' ' || c.last_name AS nimi,
+    COUNT(o.sale_id) AS tellimuste_arv,
+    SUM(o.total_price) AS kogukäive
+FROM customers c
+JOIN sales o ON c.customer_id = o.customer_id
+GROUP BY c.customer_id, c.first_name, c.last_name
+HAVING COUNT(o.sale_id) >= 2
+ORDER BY kogukäive DESC
+LIMIT 10;
+
+--Segmentide koondstatistika
+--Mitu klienti on igas segmendis (VIP, Regular, Uus)? Mis on iga keskmine käive?
+WITH kliendi_kokkuvote AS (
+    SELECT 
+        c.customer_id,
+        c.first_name || ' ' || c.last_name AS nimi,
+        c.city,
+        COUNT(o.sale_id) AS tellimuste_arv,
+        SUM(o.total_price) AS kogukäive
+    FROM customers c
+    JOIN sales o ON c.customer_id = o.customer_id
+    GROUP BY c.customer_id, c.first_name, c.last_name, c.city
+),
+kliendi_segmendid AS (
+    SELECT 
+        customer_id,
+        city,
+        kogukäive,
+        CASE 
+            WHEN kogukäive > 10000 THEN 'VIP'
+            WHEN kogukäive > 2000 THEN 'Regular'
+            ELSE 'Uus'
+        END AS segment
+    FROM kliendi_kokkuvote
+)
+SELECT 
+    segment,
+    COUNT(customer_id) AS klientide_arv,
+    AVG(kogukäive) AS keskmine_käive
+FROM kliendi_segmendid
+GROUP BY segment;
+
+-- Millistes linnades on kõige rohkem VIP-kliente?
+WITH kliendi_kokkuvote AS (
+    SELECT 
+        c.customer_id,
+        c.city,
+        SUM(o.total_price) AS kogukäive
+    FROM customers c
+    JOIN sales o ON c.customer_id = o.customer_id
+    GROUP BY c.customer_id, c.city
+),
+kliendi_segmendid AS (
+    SELECT 
+        city,
+        CASE 
+            WHEN kogukäive > 10000 THEN 'VIP'
+            WHEN kogukäive > 2000 THEN 'Regular'
+            ELSE 'Uus'
+        END AS segment
+    FROM kliendi_kokkuvote
+)
+SELECT 
+    city,
+    COUNT(*) AS vip_klientide_arv
+FROM kliendi_segmendid
+WHERE segment = 'VIP'
+GROUP BY city
+ORDER BY vip_klientide_arv DESC;
