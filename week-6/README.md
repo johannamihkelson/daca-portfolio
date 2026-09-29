@@ -10,7 +10,7 @@
 - 2023 vs 2024 aastatel oli aastane kasv 38%.
 
 ## Failid
-- `urbanstyle_dashboard_week6_johanna.pbix` -- minu Dashboard
+- `urbanstyle_week6_dashboard_johanna.pbix` -- minu Dashboard
 
 ## Meeskonna töö
 - https://docs.google.com/presentation/d/175G9j24R5GJ9Or9EvRadZt_BPE2NNsJ0jLlfqwcxoAQ/edit
