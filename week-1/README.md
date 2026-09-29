@@ -11,7 +11,6 @@
 
 ## Failid
 - `week-1/SQL` -- minu SQL päringud
-- `week1_results_screenshot.png` -- tulemuste pilt
 
 ## Meeskonna töö
 - https://docs.google.com/presentation/d/1-NnwmTks_hRKVKZDauyz6RwxQXi2Le_IbhBhmFsUyDc/edit?usp=sharing
