@@ -1,18 +1,16 @@
-Nädal 2
-# Nädal 1: SQL Basics -- UrbanStyle'i andmete uurimine
+# Nädal 2: SQL Puhastamine 
 
 ## Mida ma tegin
-- Uurisin [tabeli nimi] tabelit SQL päringutega
-- Leidsin [peamine leid]
-- Osalesin meeskonna andmemaastiku koostamisel
+- Leidsin duplikaatsed e-mailid, puuduvad nimed ja ebajärjekindlad linnanimed customers tabelis.
+- Lõin test koopia, puhastasin ja dokumenteerisin.
+- Osalesin meeskonna andmemaastiku koostamisel.
 
 ## Peamised õpid
-- [Õppetund 1]
-- [Õppetund 2]
+- Duplikaatsed e-mailid 128.
+- Puuduvaid e-maile 380.
 
 ## Failid
-- `week1_[tabel]_exploration.sql` -- minu SQL päringud
-- `week1_results_screenshot.png` -- tulemuste pilt
+- `week-2/SQL` -- minu SQL päringud
 
 ## Meeskonna töö
-- [Link meeskonna Data Landscape slaidile]
+- https://docs.google.com/presentation/d/1HECVYsM71SgIhOodP9gALHjxZ__abw_vs25rxXsnIFI/edit?slide=id.p#slide=id.p
