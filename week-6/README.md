@@ -1,18 +1,17 @@
-Nädal 6
-# Nädal 1: SQL Basics -- UrbanStyle'i andmete uurimine
+# Nädal 6: Visualiseerimise andmed
 
 ## Mida ma tegin
-- Uurisin [tabeli nimi] tabelit SQL päringutega
-- Leidsin [peamine leid]
-- Osalesin meeskonna andmemaastiku koostamisel
+- E-poe (online) dashboard + narratiiv.
+- Lõin e-poe interaktiivne dashboardi koos andmelooga. 
+- Osalesin meeskonna andmemaastiku koostamisel.
 
 ## Peamised õpid
-- [Õppetund 1]
-- [Õppetund 2]
+- Suurim müügikuu oli detsember 2024.
+- 2023 vs 2024 aastatel oli aastane kasv 38%.
 
 ## Failid
-- `week1_[tabel]_exploration.sql` -- minu SQL päringud
+- `week-6/dashboard.pbix` -- minu Dashboard
 - `week1_results_screenshot.png` -- tulemuste pilt
 
 ## Meeskonna töö
-- [Link meeskonna Data Landscape slaidile]
+- https://docs.google.com/presentation/d/175G9j24R5GJ9Or9EvRadZt_BPE2NNsJ0jLlfqwcxoAQ/edit
