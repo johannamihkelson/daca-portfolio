@@ -1,18 +1,17 @@
-Nädal 5
-# Nädal 1: SQL Basics -- UrbanStyle'i andmete uurimine
+# Nädal 5: Visualiseerimise disain
 
 ## Mida ma tegin
-- Uurisin [tabeli nimi] tabelit SQL päringutega
-- Leidsin [peamine leid]
-- Osalesin meeskonna andmemaastiku koostamisel
+- Operations Dashboardi.
+- Lõin operations dashboardi inventuuri olukorra ja müügi jaotusega kaupluste lõikes.
+- Osalesin meeskonna andmemaastiku koostamisel.
 
 ## Peamised õpid
-- [Õppetund 1]
-- [Õppetund 2]
+- Pärnus on kõige vähem müügitehinguid (10%).
+- Tallinnas on kõige rohkem müügitehinguid (38%).
 
 ## Failid
-- `week1_[tabel]_exploration.sql` -- minu SQL päringud
-- `week1_results_screenshot.png` -- tulemuste pilt
+- `week-5/SQL` -- minu SQL päringud
+- `week-5/screenshot.png` -- tulemuste pilt
 
 ## Meeskonna töö
-- [Link meeskonna Data Landscape slaidile]
+- https://docs.google.com/presentation/d/1NwglDgLGmR8aKQWKXiZXN-PUTL0dGNypzKjoAN6VcY8/edit?slide=id.p#slide=id.p
