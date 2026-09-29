@@ -6,7 +6,7 @@
 - Osalesin meeskonna andmemaastiku koostamisel.
 
 ## Peamised õpid
-- 15 VIP klienti <20 000EUR
+- 15 VIP klienti > 10 000EUR
 - VIP kliendid peamiselt Pärnus ja Tallinnas (5 mõlemas)
 
 ## Failid
