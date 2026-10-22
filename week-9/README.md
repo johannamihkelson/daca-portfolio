@@ -9,4 +9,4 @@
 - Kandidaadi sobivus organisatsiooni ja töövaldkonnaga.
 
 ## Failid
-- `main.py` & `transform.py` -- minu kood
+- `värbamisjuhend.png` -- grupitöö esitlus
