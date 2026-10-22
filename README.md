@@ -21,6 +21,14 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoliot.
 
 ### Week 6: Visualiseerimise Andmed (Power BI)
 
+### Week 7: Python Pandas
+
+### Week 8: Python APIs
+
+### Week 9: HR ja tööturg
+
+### Week 10: Lõpetamine
+
 ## Kontakt
 
 - GitHub: [GitHub.com/johannamihkelson] (https://github.com/johannamihkelson)
